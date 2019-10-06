@@ -4,4 +4,4 @@ install:
 
 .PHONY: run
 run:
-	python3 ruuvitag2mqtt.py
+	python3 app/main.py

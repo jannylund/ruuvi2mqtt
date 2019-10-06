@@ -1,5 +1,0 @@
-# Mandatory
-SERVER=<ip-or-hostname-of-mqtt-server>
-# Optional
-#CLIENT=<optional-name-of-mqtt-client-default-pi>
-#INTERVAL=<interval-in-seconds-to-send-data-default-30>

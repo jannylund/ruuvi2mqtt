@@ -5,11 +5,3 @@ install:
 .PHONY: run
 run:
 	python3 app/main.py
-
-.PHONY: start
-start:
-	supervisord
-
-.PHONY: stop
-stop:
-	killall supervisord

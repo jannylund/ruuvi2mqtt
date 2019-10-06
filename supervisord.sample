@@ -1,0 +1,10 @@
+[program:ruuvi2mqtt]
+# The next two paths must be configured.
+directory=<path-to-your-ruuvi2mqtt-home>
+environment=SERVER="<mqtt-server-ip>",CLIENT="pi",SCAN_INTERVAL="30"
+user=pi
+command=python3 -u app/main.py
+process_name=%(program_name)s
+autostart=true
+autorestart=true
+stdout_logfile=/dev/null

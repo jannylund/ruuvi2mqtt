@@ -21,10 +21,11 @@ sudo setcap 'cap_net_raw,cap_net_admin+eip' `which hcitool`
 # Setup
 
 - Clone (or download) the repo.
-- Install the python libs `make install`
-- Make the initial configuration in `config.env` by copying `config.sample` to `config.env`
+- Install the python libs `make install`.
+- Make the initial configuration in `config.env` by copying `config.sample` to `config.env`.
 
 # Running
 
-To test interactively, just run `make run`
+To test interactively, just run `make run`.
 
+To run as a service, use `make start` or `make stop`.
